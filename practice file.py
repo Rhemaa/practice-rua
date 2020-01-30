@@ -5,6 +5,9 @@ Spyder Editor
 This is a temporary script file.
 """
 
-name = "Rhema"
 
-print(name)
+def say_hey(name):
+    saying_hey = "Hey " + name + " , how you living?"
+    return saying_hey
+
+say_hey("Rhema")
